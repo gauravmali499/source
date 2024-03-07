@@ -52,9 +52,8 @@ function signin(){
     location.replace("signIn.html");
 }
 
-function signup(){
-    location.replace("index.html")
-}
+
+
 
 function signIn(){
     let email:any = document.getElementById("email").value;
@@ -77,3 +76,7 @@ document.getElementById("one").addEventListener("click",()=>{
 })
 
 
+
+document.getElementById("signup").addEventListener("click", ()=>{
+    location.replace("index.html");
+}) 
